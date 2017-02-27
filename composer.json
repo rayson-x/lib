@@ -1,0 +1,15 @@
+{
+  "name": "sssxxxzzz/lib",
+  "description": "Private library",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.0",
+    "ant-framework/http":"dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "FastHttp\\": "./FastHttp"
+    }
+  }
+}
